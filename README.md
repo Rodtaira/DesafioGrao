@@ -1,4 +1,4 @@
-# GRAO -  Desafio Técnico
+# GRÂO -  Desafio Técnico
 
 Este é um projeto de um desafio técnico para a empresa Grão feito em Node Javascript. 
 
