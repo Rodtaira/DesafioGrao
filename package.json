@@ -1,0 +1,15 @@
+{
+  "name": "teste_grao",
+  "version": "1.0.0",
+  "description": "Desafio técnico do processo seletivo para desenvolvedor júnior para a empresa Grão. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "author": "Rodrigo T. Taira",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^25.3.0"
+  }
+}
