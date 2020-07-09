@@ -2,7 +2,7 @@
 
 Este é um projeto de um desafio técnico para a empresa Grão feito em Node Javascript. 
 
-# Especificações 
+# Específicações 
 
 João está começando a investir e semanalmente, ele vai investir com a Grão R$ 100,00 e queremos mostrar para João quanto ele terá poupado e quanto o seu dinheiro terá rendido daqui 36 semanas.Para isso temos algumas regras: - Consideramos que a Taxa Selic seja de 4,25% ao ano - Pagamos 100% da Taxa Selic - Que o ano tem 252 dias úteis - Só rentabilizamos dias úteis (não se preocupe com feriados)
 
