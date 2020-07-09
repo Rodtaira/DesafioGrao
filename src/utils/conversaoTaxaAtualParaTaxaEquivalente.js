@@ -6,9 +6,9 @@
  * @param {number} periodoTaxaAtual período da taxa dada.
  * @returns {number} Taxa devidamente convertida para a medida certa.
  */
-function conversaoTaxaEquivalente(taxaAtual, periodoTaxaEquivalente, periodoTaxaAtual){
+function conversaoTaxaAtualParaTaxaEquivalente(taxaAtual, periodoTaxaEquivalente, periodoTaxaAtual){
     let taxaEquivalente = Math.pow(1 + taxaAtual, periodoTaxaEquivalente/periodoTaxaAtual ) - 1
     return taxaEquivalente
 }
 
-module.exports = conversaoTaxaEquivalente
+module.exports = conversaoTaxaAtualParaTaxaEquivalente

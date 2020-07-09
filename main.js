@@ -1,4 +1,4 @@
-const conversaoTaxaEquivalente  =   require('./src/utils/conversaoTaxaEquivalente')
+const conversaoTaxaAtualParaTaxaEquivalente  =   require('./src/utils/conversaoTaxaAtualParaTaxaEquivalente')
 const calculoRendimento         =   require('./src/utils/calculoRendimento')
 
 /**
@@ -11,8 +11,8 @@ function main(){
 
     let taxaSelicAnual = 0.0425, periodoTaxaDiaria = 1, periodoTaxaAnual = 252, aporteSemanal = 100, intervaloParaAportePeriodico = 7
 
-    let taxaEquivalente = conversaoTaxaEquivalente(taxaSelicAnual, periodoTaxaDiaria, periodoTaxaAnual)
-    let resultado = calculoRendimento(aporteSemanal, taxaEquivalente, intervaloParaAportePeriodico)
+    let taxaSelicDiaria = conversaoTaxaAtualParaTaxaEquivalente(taxaSelicAnual, periodoTaxaDiaria, periodoTaxaAnual)
+    let resultado = calculoRendimento(aporteSemanal, taxaSelicDiaria, intervaloParaAportePeriodico)
 
     console.log('Total Poupado: ' + resultado.totalPoupado)
     console.log('Rendimento em cima dos aportes: ' + resultado.montante)   
