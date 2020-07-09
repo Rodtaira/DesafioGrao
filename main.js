@@ -10,6 +10,7 @@ const calculoRendimento         =   require('./src/utils/calculoRendimento')
 function main(){
 
     let taxaSelicAnual = 0.0425, periodoTaxaDiaria = 1, periodoTaxaAnual = 252, aporteSemanal = 100, intervaloParaAportePeriodico = 7
+    
     let taxaEquivalente = conversaoTaxaEquivalente(taxaSelicAnual, periodoTaxaDiaria, periodoTaxaAnual)
     let resultado = calculoRendimento(aporteSemanal, taxaEquivalente, intervaloParaAportePeriodico)
 
